@@ -4,6 +4,10 @@ from sklearn.ensemble import IsolationForest
 
 app = Flask(__name__)
 
+@app.route("/", methods=["GET"])
+def home():
+    return "Silent Failure AI API is running!"
+
 
 # ==========================================
 # LOAD DATASET
