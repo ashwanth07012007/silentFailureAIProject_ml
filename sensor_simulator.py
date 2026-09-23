@@ -7,7 +7,7 @@ import random
 # SPRING BOOT API
 # ==========================================
 
-API_URL = "http://localhost:8080/api/sensors"
+API_URL = "https://silentfailureaiproject-backend.onrender.com/api/sensors"
 
 
 # ==========================================
